@@ -1,48 +1,22 @@
-# ⚙️ Ambientes e config
+node_modules/
+.next/
+out/
+dist/
+build/
 .env
 .env.local
 .env.*.local
-
-# ⚙️ Diretórios padrão do Next.js e build
-.next
-out
-dist
-build
-
-# 📦 Dependências
-node_modules/
-
-# ⚠️ Arquivos pesados (evita acidentalmente commits grandes)
-*.log
-*.tgz
-*.zip
-*.exe
-*.dll
-*.bin
-
-# 🧪 Testes e coverage
-coverage/
-.nyc_output/
-jest-html-reporters-*.html
-
-# 💅 Editor configs
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# ⚙️ Sistema
 .DS_Store
 Thumbs.db
-
-# 📚 TypeScript
-*.tsbuildinfo
-
-# 🔥 Evita arquivos de cache
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-
-# ⚠️ Proteção extra para arquivos nativos compilados
+.vscode/
+.idea/
+*.sublime-*
+*.tsbuildinfo
+coverage/
+.nyc_output/
 *.node
